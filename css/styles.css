@@ -370,6 +370,9 @@ p {
 }
 
 .modal-btn:hover {
+    fill: var(--accent-cl);
+}
+/* .modal-btn:hover {
     fill: #ffffff;
     animation: animate180 2000ms infinite 100ms;
 }
@@ -392,7 +395,100 @@ p {
       background-color: #188CE8;
       color: #ffffff;
     }
-  }
+} */
+
+/* FORM */
+
+.form-title {
+    margin-bottom: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.contact-form {
+    display: block;
+    justify-content: center;
+    width: 448px;
+    outline: 1px solid rgb(21, 194, 64);
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 40px;
+}
+
+
+.form-item {
+    margin-right: auto;
+}
+
+.form-group {
+    outline: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 11px;
+}
+
+.form-group label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.17;
+
+    letter-spacing: 0.01em;
+
+    color: #757575;
+}
+
+/* .form-group input::placeholder {
+    color: #188CE8;
+    text-align: right;
+} */
+
+/* .contact-form .contacts {
+    width: 448px;
+    
+} */
+
+/* .form-title {
+    margin-bottom: 12px;
+} */
+
+/* .form-text {
+    margin-bottom: 20px;
+} */
+
+/* .form-check {
+    margin-bottom: 30px;
+
+} */
+
+/* .check-input {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+} */
+
 
 /* Особенности About */
 
