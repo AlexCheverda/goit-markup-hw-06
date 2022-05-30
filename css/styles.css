@@ -1167,21 +1167,24 @@ p {
 }
 
 .footer-form {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 570px;
-    /* outline: 1px solid tomato; */
-    margin-right: 0px;
-    margin-left: 93px;
-}
-
-
-.footer-label {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 
-    /* outline: 1px solid rgb(114, 250, 175); */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 570px;
+    
+    margin-right: auto;
+    margin-left: 93px;
+
+    /* outline: 1px solid tomato; */
+}
+
+.footer-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-input {
@@ -1225,7 +1228,7 @@ p {
 
 .footer-btn {
     padding: 10px 29px;
-    
+    height: 50px;
     display: inline-block;
     font-family: inherit;
     font-weight: 700;
