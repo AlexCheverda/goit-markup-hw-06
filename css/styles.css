@@ -365,9 +365,7 @@ p {
     
     border-radius: 50%;
     cursor: pointer;
-    
-    
-    
+    transition: fill var(--animation);
 }
 
 .modal-btn:hover {
@@ -410,6 +408,18 @@ p {
     
     margin-bottom: 12px;
 
+    /* font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121; */
+}
+
+.modal-title {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -445,8 +455,10 @@ p {
 }
 
 .modal-input {
+    box-sizing: border-box;
+
     width: 100%;
-    padding: 12px 42px;
+    padding: 10px 42px;
     margin-bottom: 10px;
 
     border-radius: 4px;
